@@ -1,5 +1,6 @@
 ```markdown
 # 📄 Text Summarizer
+Model for summarizing small news articles
 
 ![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)
 ![PyTorch 2.x](https://img.shields.io/badge/PyTorch-2.x+-EE4C2C.svg)
@@ -161,7 +162,7 @@ The `notebooks/` directory contains the complete Jupyter Notebook pipeline used 
 | :--- | :--- |
 | `01_baseline_evaluation.ipynb` | Evaluation of the baseline `rut5-base-absum` model on the Gazeta dataset |
 | `02_mt5.ipynb` | LoRA fine-tuning of `mT5-small` on the Gazeta dataset with training dynamics analysis |
-| `03_model_comparison_and_multilingual_eval.ipynb` | Comprehensive comparison of three models (baseline, zero-shot, LoRA) on Russian and English datasets using ROUGE and BERTScore |
+| `03_model_comparison_and_multilingual_eval.ipynb` | Comprehensive comparison of three models (baseline, zero-shot, LoRA) on Russian dataset using ROUGE and BERTScore |
 
 ## 📁 Project Structure
 
